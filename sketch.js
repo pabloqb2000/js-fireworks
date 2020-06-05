@@ -4,7 +4,7 @@ const friction = 0.9;
 const num = 60;
 
 function setup() {
-  createCanvas(clientWidth, clientHeight);
+  createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 255);
   background(32);
   noStroke();
