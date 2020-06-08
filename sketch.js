@@ -4,6 +4,7 @@ const friction = 0.9;
 const num = 60;
 
 function setup() {
+	textFont("Sarpanch");
   createCanvas(windowWidth, windowHeight);
   colorMode(HSB, 255);
   background(32);
